@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Word Mean</title>
+</head>
+<body>
+    <div class="heading">
+        <span>Crazy Dictionary</span>
+    </div>
+    
+    <div class="form1">
+        <form action"/" method="POST" id="myForm">
+            <div class="formGroup">
+                <label class="labelText">Enter a Word</label><br>
+                <input type="text" class="wordInput" placeholder="Example" id="word" name="word">
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="selection_type" class="labelText">What to get</label><br>
+
+                <select class="dropDownOptions" id="resultType" name="resultType">
+                    <option value="everything">Everything</option>
+                    <option value="definition">Definitions</option>
+                    <option value="author">Author</option>
+                    <!-- <option value="synonyms">Synonyms</option>
+                    <option value="antonyms">Antonyms</option>
+                    <option value="examples">Examples</option>
+                    <option value="rhymes">Rhymes</option>
+                    <option value="frequency">Frequency</option>
+                    <option value="typeOf">Is A Type Of</option>
+                    <option value="hasTypes">Has Types</option>
+                    <option value="partOf">Part Of</option>
+                    <option value="hasParts">Has Parts</option>
+                    <option value="instanceOf">Is An Instance Of</option>
+                    <option value="hasInstances">Has Instances</option>
+                    <option value="inRegion">In Region</option>
+                    <option value="regionOf">Region Of</option>
+                    <option value="usageOf">Usage Of</option>
+                    <option value="hasUsages">Has Usages</option>
+                    <option value="memberOf">Is A Member Of</option>
+                    <option value="hasMembers">Has Members</option>
+                    <option value="substanceOf">Is A Substance Of</option>
+                    <option value="hasSubstances">Has Substances</option>
+                    <option value="hasAttribute">Has Attribute</option>
+                    <option value="inCategory">In Category</option>
+                    <option value="hasCategories">Has Categories</option>
+                    <option value="also">Also</option>
+                    <option value="pertainsTo">Pertains To</option>
+                    <option value="similarTo">Similar To</option>
+                    <option value="entails">Entails</option> -->
+                </select>
+            </div>
+            <br>
+            <div>
+                <button id="getWord" class="submitButton" type="submit" style="margin-top:20px;">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <div id="result">
+            
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

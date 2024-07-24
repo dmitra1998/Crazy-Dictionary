@@ -1,0 +1,11 @@
+{
+    "name": "Crazy Dictionary",
+    "version": "1.0.0",
+    "description": "A one of a kind dictionary",
+    "manifest_version": 3,
+    "author": "Dhritabrata Mitra",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Crazy Dictionary"
+    }
+}
